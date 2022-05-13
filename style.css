@@ -135,6 +135,27 @@ body {
     color: var(--Dark-blue)
 }
 
+@media screen and (max-width: 390px) {
+    .container {
+        margin-left: 25px;
+        max-width: 325px;
+        height: 590px;
+    }
+
+    .banner {
+        max-width: 325px;
+    }
+
+    .subscription, .cta {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .subscription .sub-text {
+        margin-right: 35px;
+    }
+}
+
 /* -- Attribution -- */
 .attribution { 
     margin-top: 25px;
